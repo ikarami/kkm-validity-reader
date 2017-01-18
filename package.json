@@ -1,0 +1,26 @@
+{
+  "name": "kkm-validity-reader",
+  "version": "0.0.1",
+  "description": "Checks KKM validity",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "nodemailer": "^2.7.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikarami/kkm-validity-reader.git"
+  },
+  "author": "Przemyslaw Banka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikarami/kkm-validity-reader/issues"
+  },
+  "homepage": "https://github.com/ikarami/kkm-validity-reader#readme"
+}
