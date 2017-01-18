@@ -10,5 +10,7 @@ module.exports = {
 	mail: {
 		from: '',
 		to: ''
-	}
+	},
+	cityCardNumber: '', // KKM card number
+	identityNumber: '' // KKM card number
 };

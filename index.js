@@ -6,7 +6,7 @@ var nodemailer = require('nodemailer');
 var config = require('./config');
 var secure = require('./secure');
 
-var kkm_check_url = config.url.replace('CARD', config.cityCardNumber).replace('IDENTITY', config.identityNumber);
+var kkm_check_url = config.url.replace('CARD', secure.cityCardNumber).replace('IDENTITY', secure.identityNumber);
 
 request.get(kkm_check_url, function (error, response, body) {
     if (!error && response.statusCode == 200) {
